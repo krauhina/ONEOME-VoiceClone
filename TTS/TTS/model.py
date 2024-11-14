@@ -9,10 +9,7 @@ from trainer import TrainerModel
 
 
 class BaseTrainerModel(TrainerModel):
-    """BaseTrainerModel model expanding TrainerModel with required functions by 🐸TTS.
 
-    Every new 🐸TTS model must inherit it.
-    """
 
     @staticmethod
     @abstractmethod
